@@ -10,6 +10,7 @@ CONF_PATH = './utils/params.ini'
 
 app = Flask(__name__)
 conf = configparser.ConfigParser()
+conf.read(CONF_PATH)
 line_bot_api = LineBotApi(conf['access']['token'])
 handler = WebhookHandler(conf['access']['secret'])
 
