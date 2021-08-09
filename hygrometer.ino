@@ -1,9 +1,3 @@
-/*
-  parts used:
-  - higrometer YL-69 / HC-38 (WINGONEER)
-  - Bluetooth4.0 BLE-module SH-HC-08 (DSD TECH)
-*/
-
 int sampleData = 0;
 int ledPin = 13;
 const int sensorPin = A0;
